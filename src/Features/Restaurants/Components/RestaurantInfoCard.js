@@ -5,17 +5,18 @@ import { Avatar, Button, Card,} from 'react-native-paper';
 import styled from 'styled-components';
 
 const Title = styled.Text`
-    padding : 16px
+    padding : 16px;
+    color : ${(props) => props.theme.colors.ui.error  };
 `;
 
 const RestaurantCard = styled(Card)`
-backgroundColor : white
+background- color : ${(props) => props.theme.colors.bg.primary};
 
 `;
 
 const RestaurantCardCover = styled(Card.Cover)`
-backgroundColor : white,
-padding : 16px
+background- color : ${(props) => props.theme.colors.bg.primary};
+padding : 16px;  
 
 `;
 
