@@ -5,14 +5,19 @@ import { ThemeProvider } from 'styled-components/native';
 
 import { theme } from "./src/Infrastructure/Theme/index";
 
+
+
+
+
 export default function App() {
-  return (
-    <>
-        <ThemeProvider theme = {theme}>
-          <RestaurantScreen/>
-        </ThemeProvider>
-    </>
-  );
+
+return (
+  <>
+      <ThemeProvider theme = {theme}>
+        <RestaurantScreen/>
+      </ThemeProvider>
+  </>
+);
 }
 
 
